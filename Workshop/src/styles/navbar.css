@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+#acm-logo{
+    margin-left:10%;
+    width:58px;
+    height:58px;
+}
+
+.navigationLinks{
+    align-self:center;
+    display:flex;
+    gap:50px;
+}
