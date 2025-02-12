@@ -20,7 +20,14 @@ footer{
 }
 
 .socials{
-    display:grid
+    display:grid;
+    grid-template-columns: [first] 50% [second] 50%;
+    grid-template-rows: [row1-start] 33% [row2-start] 33% [row3-start] 33%;
+}
+
+.email,.discord,.linkedin,.instagram,.github{
+    display:flex;
+    gap:11px;
 }
 
 .socialNames{
@@ -29,3 +36,4 @@ footer{
     font-weight:700;
     font-family:"DM Sans",serif;
 }
+
