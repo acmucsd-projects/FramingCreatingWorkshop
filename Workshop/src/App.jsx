@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import ACMLogo from './assets/ACM.png'
-import Navbar from './components/navbar';
-import Body from './components/body';
-import Footer from './components/footer';
+
 import './index.css'
 
 function App() {
@@ -11,10 +9,10 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Body/>
-      <Footer/>
-      {/* <div>
+    {/*
+    Add your components here. Hint: How would add a self-closing/void HTML element?
+    */}
+      <div>
         <a href="https://projects.acmucsd.com/" target="_blank">
           <img src={ACMLogo} className="logo" alt="Vite logo" />
         </a>
@@ -34,7 +32,7 @@ function App() {
       <p className="read-the-docs">
         Click on the ACM and React logos to learn more
       </p>
-      */}
+     
     </>
   )
 }

@@ -4,31 +4,3 @@
     box-shadow: 0px 4px 10px 0px rgb(0,0,0,0.25);
     width:100%;
 }
-
-nav{
-    display:flex;
-    justify-content: space-between;
-    padding:21px 0px;
-}
-
-#acm-logo{
-    margin-left:8%;
-    width:58px;
-    height:58px;
-}
-
-.navigationLinks{
-    align-self:center;
-    display:flex;
-    gap:50px;
-    margin-right:8%;
-}
-
-.navigationLinks a{
-    font-family:"DM Sans",serif;
-    font-size:18px;
-    font-weight:700;
-    line-height:normal;
-    text-decoration:none;
-    color:black;
-}

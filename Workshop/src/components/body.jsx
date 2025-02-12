@@ -1,52 +1,46 @@
-import "../styles/body.css"
-//import mainPicture from "";
-import mainPicture from "../assets/imageprojects.png"
 import aiLogo from "../assets/ai.svg"
-import hackLogo from "../assets/hack.svg"
-import dsgnLogo from "../assets/dsgn.svg"
+/*
+Challenge: What's another way to write the function below and export it at the same time? 
+What's the difference?
+*/
 const Main = () => {
     return(
         <>
             <main>
                 <aside>
-                    <h1 id="body-header">ACM Projects</h1>
-                    <p>ACM Projects is our quarterly projects program where students work in a tight knit team. The program gives students the opportunity to be hands-on outside of courses in fields such as <strong> AI, design, and software engineering </strong>. The program culminates in a projects showcase and the finished product looks great on resumes. We welcome all skill levels to apply!</p>
-                    <br/>
-                    <b>Applications due Feb 14, 11:59PM</b>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR_Ep_UGX_DVgxf_yNDvPxmR_UYLWS8hxqtoN9QpZdLBueMA/closedform">
-                        <button id="apply-button">
-                        Apply Now
-                        </button>
-                    </a>
+                    {/*
+                    Create a button wrapped in an anchor tag to create a clickable link! Link:https://docs.google.com/forms/d/e/1FAIpQLSfR_Ep_UGX_DVgxf_yNDvPxmR_UYLWS8hxqtoN9QpZdLBueMA/closedform
+                    */}
                 </aside>
-                <img src={mainPicture} alt="Project Picture"/>
+                {/*
+                Add the main picture here with the proper imported module and alt description!
+                */}
             </main>
-            <div className="communities">
+            <div className="">
                 <header>
                     <h2 id="community-header">Communities</h2>
                     <img src={aiLogo}alt="AI Logo"/>
-                    <img src={hackLogo}alt="Hack Logo"/>
-                    <img src={dsgnLogo}alt="Design Logo"/>
+                    {/*
+                    Add the remaining two logos here similar to above. Don't forget to import the right logos!
+                    */}
                 </header>
-                <div className="communityBoxes">
+                {/*Challenge for below: After completing these these boxes, is there a way to map over the content instead of hardcoding from a data file?
+                */}
+                <div className="">
                     <div id="ai-box">
                         <p>
                         <span id="ai">AI</span> projects focus on building a project related to all things AI, from natural language processing to computer vision and more!
                         </p>
                     </div>
-                    <div id="hack-box">
-                        <p>
-                        <span id="hack">Hack</span> projects works to build a full MERN stack website, emulating a software engineering team working on the Agile process!
-                        </p>
+                    <div id="box">
                     </div>
-                    <div id="design-box">
-                        <p>
-                        <span id="design">Design</span> projects work on creating or redesigning a platform, working through the design process from research to prototyping and more!
-                        </p>
-                    </div>
+                    {/*Add the last box for the design community. Hint:Very similar to above! */}
                 </div>
 
             </div>
+            {/*Add a button to explore past projects! 
+            Can you try using input element instead of button?
+            */}
             <a id="button2" href="https://docs.google.com/forms/d/e/1FAIpQLSfR_Ep_UGX_DVgxf_yNDvPxmR_UYLWS8hxqtoN9QpZdLBueMA/closedform">
                 <button id="past-projects-button">
                 Explore Past Projects
