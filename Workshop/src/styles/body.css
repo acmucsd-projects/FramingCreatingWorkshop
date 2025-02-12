@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 main{
-    margin:64px 160px;
+    margin-top:64px;
+    margin-bottom:64px;
+    margin-left:10%;
     display:flex;
     gap:32px;
 }
@@ -36,8 +38,7 @@ aside p,b{
     cursor:pointer;
 }
 .communities{
-    margin-left:160px;
-
+    margin-left:10%;
 }
 .communities header{
     display:flex;
@@ -95,7 +96,9 @@ header #community-header{
     margin-top:45px;
     margin-top:67px;
 }
+
 #past-projects-button{
+    margin-bottom:67px;
     padding: 20px 30px;
     border-radius:10px;
     border:0px;

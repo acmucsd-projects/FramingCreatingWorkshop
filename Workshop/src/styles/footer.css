@@ -19,15 +19,24 @@ footer{
     font-weight:700;
 }
 
+.socialSection{
+    display:flex;
+    gap:83px;
+    padding-bottom:103px;
+}
+
 .socials{
     display:grid;
+    margin-left:35%;
+    width:313px;
     grid-template-columns: [first] 50% [second] 50%;
-    grid-template-rows: [row1-start] 33% [row2-start] 33% [row3-start] 33%;
+    grid-template-rows: [row1-start] 52px [row2-start] 52px [row3-start] 52px [row3-end];
 }
 
 .email,.discord,.linkedin,.instagram,.github{
     display:flex;
     gap:11px;
+    align-items:center;
 }
 
 .socialNames{
@@ -37,3 +46,20 @@ footer{
     font-family:"DM Sans",serif;
 }
 
+#newsletter-header{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:700;
+    font-family:"DM Sans",serif;
+    margin-bottom:11px;
+}
+#subscribe-button{
+    padding: 10px 42px;
+    border-radius:10px;
+    border:0px;
+    background-color: rgba(98, 176, 255, 1);
+    color:rgba(255, 255, 255, 1);
+    font-size:20px;
+    font-weight:700;
+    font-family:"DM Sans", serif;
+}
