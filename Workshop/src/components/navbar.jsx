@@ -7,7 +7,7 @@ import ACMLogo from "../assets/acmlogo.png";
 
 const Navbar = () => {
     return(
-        <header>
+        <header className="navBar">
             <nav>
                 <img id="acm-logo" src={ACMLogo} alt="ACM Logo"/>
                 <div className="navigationLinks">

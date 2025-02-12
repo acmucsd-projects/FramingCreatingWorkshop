@@ -2,6 +2,30 @@
 
 footer{
     background-color:black;
-    height:411px;
+    height:auto;
     width:100%;
+    padding-top:55px;
+}
+
+#footer-header{
+    /*
+    try margin-top here instead
+    */
+    margin-bottom:55px;
+    text-align:center;
+    color:#FFFFFF;
+    font-family:"DM Sans",serif;
+    font-size:50px;
+    font-weight:700;
+}
+
+.socials{
+    display:grid
+}
+
+.socialNames{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:700;
+    font-family:"DM Sans",serif;
 }

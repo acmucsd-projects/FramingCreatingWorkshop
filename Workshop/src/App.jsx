@@ -4,7 +4,7 @@ import ACMLogo from './assets/ACM.png'
 import Navbar from './components/navbar';
 import Body from './components/body';
 import Footer from './components/footer';
-
+import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)
